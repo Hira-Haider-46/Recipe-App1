@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container" id="search-container">
+        <div class="search">
+            <input type="text" placeholder="Enter dish name here" id="user-input" />
+            <button id="search-btn">Search</button>
+        </div>
+        <h3 style="display: none;">Input field cannot be empty</h3>
+        <div id="all-recipes" style="display: none;"></div>
+    </div>
+
+    <div class="container" id="result-container" style="display: none;">
+        <div id="result"></div>
+        <div class="btn">
+            <button id="back-to-search">Back</button>
+            <button id="show-recipe" style="display: none;">View Recipe</button>
+        </div>
+    </div>
+
+    <div class="container" id="recipe-container" style="display: none;">
+        <p id="recipe-text"></p>
+        <button id="back-to-result">Back</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

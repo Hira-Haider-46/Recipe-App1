@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #043863;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(0, 146, 146);
+    padding: 3em 2.8em;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2em 0;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0.5em 1em 0em;
+}
+
+#user-input {
+    font-size: 1rem;
+    padding: 0.8em 1.5em;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #001322;
+    font-weight: 400;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #e76060;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.8em 1.5em;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    transition-duration: 0.6s;
+    color: rgba(5, 171, 201, 0.973);
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+.details {
+    background-color: #e76060;
+    position: relative;
+    margin: -3.5em 0 0 0;
+    text-align: center;
+    padding: 0.5em 0;
+    color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.details h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.details h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.8em 1.5em;
+    padding: 1.2em 0 0 1.2em;
+    color: rgb(235, 235, 235);
+    font-weight: 500;
+}
+
+#recipe-text {
+    font-weight: 400;
+    color: rgb(235, 235, 235);
+    font-size: 1.1rem;
+    line-height: 27px;
+}
+
+#back-to-result {
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 1.8em;
+    color: rgb(235, 235, 235);
+    font-weight: 400;
+}
+
+#all-recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    background-color: #dbb3b3;
+    transition: 0.6s;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.recipe-card h2 {
+    font-size: 1.1rem;
+    color: #001322;
+    margin: 0.5em 0;
+}
+
+.recipe-card h4 {
+    font-size: 0.9rem;
+    color: #001322;
+    font-weight: 500;
+}
